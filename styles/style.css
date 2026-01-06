@@ -1,0 +1,57 @@
+.open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Common Style */
+
+/* Individual Style */
+
+header {
+  background: url(../images/banner/banner1.png);
+  background-size: cover;
+}
+
+.hero-section {
+  display: flex;
+  justify-content: right;
+}
+
+.hero-section .hero-content {
+  margin-top: 216px;
+  margin-right: 230px;
+  max-width: 525px;
+  text-align: right;
+}
+
+.hero-section .hero-content h1 {
+  font-size: 65px;
+  font-weight: bold;
+  color: #151414;
+  margin-bottom: 24px;
+}
+
+.hero-section .hero-content p {
+  font-size: 16px;
+  line-height: 26px;
+  color: #444343;
+  margin-bottom: 32px;
+}
+
+.hero-content .btn {
+  padding: 20px 25px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: #f15b22;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 166px;
+  cursor: pointer;
+}
