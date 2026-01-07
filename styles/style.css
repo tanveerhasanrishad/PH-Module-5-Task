@@ -55,3 +55,116 @@ header {
   margin-bottom: 166px;
   cursor: pointer;
 }
+
+.mid-section {
+  max-width: 1072px;
+  margin-top: 130px;
+  margin-left: 206px;
+  margin-right: 322px;
+  margin-bottom: 130px;
+  display: flex;
+  gap: 87px;
+}
+
+.mid-img {
+  max-width: 570px;
+}
+
+.mid-content {
+  max-width: 416px;
+  margin-top: 240px;
+  margin-bottom: 84px;
+}
+
+.mid-content .section-title {
+  font-size: 40px;
+  font-weight: bold;
+  color: #151414;
+  margin-bottom: 24px;
+}
+
+.mid-content p {
+  font-size: 16px;
+  line-height: 26px;
+  color: #444343;
+  margin-bottom: 16px;
+}
+
+.mid-content ul li {
+  font-size: 16px;
+  line-height: 26px;
+  color: #444343;
+}
+
+.bottom-section {
+  max-width: 1141px;
+  margin: 0 auto;
+}
+
+.bottom-section .section-title {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  color: #151414;
+  margin-bottom: 50px;
+}
+
+.bottom-section .bottom-cards {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 124px;
+}
+
+.bottom-cards .card {
+  text-align: center;
+}
+
+.bottom-cards .card img {
+  height: 93px;
+  width: 93px;
+}
+
+.bottom-cards .card h3 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #151414;
+  margin-bottom: 16px;
+}
+
+.bottom-cards .card p {
+  font-size: 25px;
+  font-weight: 500;
+  color: #737272;
+}
+
+.mid-banner {
+  background-image: url(../images/gradient2.png), url(../images/watch.png);
+  background-size: cover;
+  border-radius: 8px;
+  max-width: 1140px;
+}
+
+.mid-banner .mid-banner-content {
+  max-width: 459px;
+  /* margin-top: 60px; */
+  padding-top: 60px;
+  margin-left: 64px;
+}
+
+.mid-banner-content h2 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 24px;
+  color: #ffffff;
+}
+
+.mid-banner-content button {
+  font-size: 20px;
+  font-weight: 600;
+  padding: 20px 36px;
+  color: #f15b22;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 60px;
+}
