@@ -94,6 +94,13 @@ header {
   font-size: 16px;
   line-height: 26px;
   color: #444343;
+  list-style: none;
+}
+
+.mid-content ul li i {
+  color: #16d887;
+  height: 24px;
+  width: 24px;
 }
 
 .bottom-section {
@@ -142,6 +149,7 @@ header {
   background-size: cover;
   border-radius: 8px;
   max-width: 1140px;
+  margin-bottom: 130px;
 }
 
 .mid-banner .mid-banner-content {
@@ -167,4 +175,72 @@ header {
   border: none;
   border-radius: 5px;
   margin-bottom: 60px;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #151414;
+}
+
+footer .footer-container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding-top: 130px;
+  padding-bottom: 130px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-container .footer-content {
+  max-width: 485px;
+}
+
+.footer-content h2 {
+  font-size: 45px;
+  font-weight: bold;
+  color: #f8f8f8;
+  margin-bottom: 16px;
+}
+
+.footer-content p {
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+  margin-bottom: 24px;
+}
+
+.footer-logo {
+  display: flex;
+  gap: 17px;
+}
+
+.footer-form h3 {
+  font-size: 25px;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 31px;
+}
+
+form input[type="email"] {
+  font-size: 18px;
+  color: #f3f3f3;
+  padding-top: 21px;
+  padding-left: 21px;
+  padding-bottom: 21px;
+  padding-right: 158px;
+  background-color: #151414;
+  border: 1px solid #f3f3f3;
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+
+.footer-form button {
+  font-size: 20px;
+  font-weight: 600;
+  color: #f15b22;
+  padding: 20px 36px;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
 }
